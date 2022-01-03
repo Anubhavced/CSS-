@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+#card{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-color:rgb(187, 178, 178) ;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1.5px 3px; 
+    border-radius: 15px;
+    padding: 5%;
+    
+}
+#card .main{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#card .top ,#card .center, #card .bottom {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-family: 'Slabo 27px', serif;
+   
+   
+}
+#card .top h1 , #card .center h1{
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 60px;
+}
+#card .top h2 , #card .center h2{
+    line-height: 60px;
+    font-size: 2rem;
+}
+#card .bottom {
+   color: rgb(206, 45, 45);
+   padding-top: 10px;
+}

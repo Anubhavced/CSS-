@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 207, 223);
+}
+h1{
+    text-align: center;
+    font-family:monospace;
+    line-height: 35px;
+    margin: 35px 0;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #111010;
+    box-shadow: 1px 3px;
+  }
+
+  
+  td ,th{
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #111010;
+  }
+ 
